@@ -98,7 +98,7 @@ declare function app:get-icon-from-folder($size as xs:int, $collection as xs:str
             return
                 <img src="images/{$imgLink}?s={$size}" title="{$collection}"/>
         else
-            <img src="resources/images/kuran.png"/>
+            <img src="resources/images/1405369361_Book.png"/>
 };
 
 declare function app:get-icon($size as xs:int, $item as element(mods:mods)) {
